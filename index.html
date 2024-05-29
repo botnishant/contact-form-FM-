@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="wrapper">
+    <!-- <img src="desktop-design.jpg" alt="this" class="image"> -->
+<form action="">
+  <div id="title">Contact Us</div>
+
+  <div class="box1">
+
+  <label class="label" for="firstname">First Name
+    <input type="text" name="name" class="input" required>
+  </label>
+  
+  <!-- This field is required -->
+
+  <label class="label" for="lastname">Last Name
+    <input type="text" name="lastname" class="input" required>
+  </label>
+
+  <!-- This field is required -->
+</div>
+
+<label for="email">Email Address 
+  <input type="text" name="email" id="email" required>
+</label>
+
+  <!-- Please enter a valid email address -->
+  <!-- This field is required -->
+
+  <div class="box2">
+
+  <legend>Query Type</legend>
+  <label for="querytype" id="box-c">
+    <input type="radio" name="General Enquiry" class="check1" >
+    General Enquiry
+  </label>
+
+<label for="querytype" id="box-c">
+  <input type="radio" name="Support Request" class="check1" id="boxy" >
+  Support Request
+</label>
+
+  </div>
+
+
+  <!-- This field is required -->
+  <label for="message" class="mssg">
+     <legend>Message</legend>
+    <input type="text" name="message" id="message" required>
+  </label>
+
+  <input type="checkbox" name="checkbox" id="c1" required>
+<label for="c1">I consent to begin contacted by the team</label>
+
+  <!-- I consent to being contacted by the team
+  To submit this form, please consent to being contacted -->
+
+  <button class="button" type="submit">Submit</button>
+</form>
+
+  <!-- Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+</div>
+
+<script src="script.js">
+
+</script>
+  
+</body>
+</html>

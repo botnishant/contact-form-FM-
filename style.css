@@ -1,0 +1,187 @@
+@font-face {
+    font-family: myFont;
+    src: url(/assets/fonts/static/Karla-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    position: fixed;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.5;
+}
+
+body{
+    background-color:  hsl(148, 38%, 91%);
+    /* background-color: blue; */
+    font-family: myFont;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    /* background-color: green; */
+    background-color: white;
+    width: 734px;
+    margin-top: 130px;
+    margin-left:4px;
+    border-radius: 10px;
+    padding: 36px;
+}
+
+input[type=checkbox] {
+    accent-color: hsl(169, 82%, 27%);
+  }
+  
+  input[type=radio] {
+    accent-color: hsl(169, 82%, 27%);
+  }
+  
+
+#title{
+    font-size: 32px;
+    padding-bottom: 31px;
+}
+
+.box1{
+    display: flex;
+    padding-bottom: 15px;
+    gap: 15px;
+    
+    /* justify-content: space-between; */
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    width: 48.4%;
+}
+
+.input{
+    border-radius: 7px;
+    padding: 17px;
+    margin: 11px 0px;
+    cursor: pointer; 
+}
+
+#email{
+    margin: 12px 1px;
+    padding: 16px;
+    width: 99.2%;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.box2{
+    margin: 3px 0px;
+    margin-bottom: 42px;
+}
+
+.box2 label{
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+    /* width: 48.4%; */
+
+}
+
+/* .box2 input{
+
+
+} */
+#box-c{
+    margin-top: 10px;
+    display: inline;
+    border: 1px black solid;
+    padding: 14px;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+/* #boxy{
+    padding-left: 100px;
+} */
+
+legend{
+    margin-bottom: 32px;
+}
+
+.mssg legend{
+    margin-bottom: 12px;
+}
+
+#message{
+    width: 99.2%;
+    padding: 12px 16px 77px 16px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#c1{
+    /* font-size: 16px; */
+    margin-bottom:45px;
+    /* font-weight: 700; */
+}
+
+.button{
+    width: 99.2%;
+    padding: 18px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:  hsl(169, 82%, 27%);
+    color: white;
+}
+
+
+@media(max-width:600px){
+    .wrapper{
+        min-width: 375px; 
+    }
+
+    /* .content{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    .content::-webkit-scrollbar{
+        width: 0;
+    } */
+
+}
+
+
+
+
+/* 
+- Green 200 (lighter): hsl(148, 38%, 91%)
+- Green 600 (medium): hsl(169, 82%, 27%)
+- Red: hsl(0, 66%, 56%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey 500 (medium): hsl(186, 15%, 59%)
+- Grey 900 (darker): hsl(187, 24%, 22%)
+
+*/
